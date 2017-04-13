@@ -1,0 +1,23 @@
+{
+    "name": "exfriend/parser",
+    "description": "Tutorial on cURL",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "volodya199514",
+            "email": "volodya199514@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "coderockr/php-query": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
